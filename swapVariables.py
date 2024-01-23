@@ -3,10 +3,9 @@ b=20
 print("Before Swap")
 print(f"a={a} \n b={b}")
 
+print("After Swap")
+x= a
+a=b
+b=x
+print(f"a={a} \n b={b}")
 
-
-if (a==10) is True{
-    a=b
-    b=a
-}
-    print(a, b)
